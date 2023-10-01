@@ -1,1 +1,53 @@
+/**
+ * @name csBackground
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+
+:root {
+  --background: url('https://github.com/realdtn2/discord-plugins-personal/blob/main/oneshot-purple.png?raw=true');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 0px;
+  --popout: url('https://github.com/realdtn2/discord-plugins-personal/blob/main/oneshot-purple.png?raw=true');
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 127,17,224;
+  --backdrop: rgb(0,0,0,0.85);
+  --textshadow: transparent;
+  --transparencyalpha: 0;
+  --messagetransparency: 0.04;
+  --guildchanneltransparency: 0.22;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0.4;
+  --textbrightest: 255,255,255;
+  --textbrighter: 222,222,222;
+  --textbright: 200,200,200;
+  --textdark: 160,160,160;
+  --textdarker: 125,125,125;
+  --textdarkest: 90,90,90;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --columns: 3;
+  --guildgap: 3;
+  --aligndms: 0;
+  --font:  0;
+}
+
+/* Any custom CSS below here */
 
